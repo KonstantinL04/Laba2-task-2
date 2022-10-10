@@ -23,6 +23,11 @@ namespace Laba2_task_2
             Properties.Settings.Default.Save();
             MessageBox.Show(Logic.GetStringsReverse(sentence));
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     public class Logic
     {

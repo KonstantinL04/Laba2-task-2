@@ -46,11 +46,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(108, 32);
+            this.label1.Location = new System.Drawing.Point(149, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 20);
+            this.label1.Size = new System.Drawing.Size(68, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Введите предложение:";
+            this.label1.Text = "Введите:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtInputString
             // 
